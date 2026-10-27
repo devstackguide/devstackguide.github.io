@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" data-header-style="modern">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>document.documentElement.classList.replace('no-js','js');</script>
+  <title>Hidden Gems: side by side SDKs Edition (2023)</title>
+  <meta name="description" content="Whether you are setting up side by side SDKs for the first time or cleaning up an inherited project, the difference between a smooth workflow and a fragile...">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+  <link rel="canonical" href="https://devtoolkit.github.io/microsoft-build-tools/hidden-gems-side-by-side-sdks-edition-2023.html">
+  <meta name="google-site-verification" content="google4a76338cbc6eddcb">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hidden Gems: side by side SDKs Edition (2023)">
+<meta property="og:description" content="Whether you are setting up side by side SDKs for the first time or cleaning up an inherited project, the difference between a smooth workflow and a fragile...">
+<meta property="og:url" content="https://devtoolkit.github.io/microsoft-build-tools/hidden-gems-side-by-side-sdks-edition-2023.html">
+<meta property="og:site_name" content="DevToolkit">
+<meta property="og:image" content="https://tse1.mm.bing.net/th?q=side-by-side-sdks&w=1200&h=630&c=7">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hidden Gems: side by side SDKs Edition (2023)">
+<meta property="twitter:description" content="Whether you are setting up side by side SDKs for the first time or cleaning up an inherited project, the difference between a smooth workflow and a fragile...">
+<meta name="twitter:image" content="https://tse1.mm.bing.net/th?q=side-by-side-sdks&w=1200&h=630&c=7">
+<meta property="og:updated_time" content="2025-02-23T21:36:41.000+06:00">
+<meta property="article:published_time" content="2025-02-23T21:36:41.000+06:00">
+<meta property="article:modified_time" content="2025-02-23T21:36:41.000+06:00">
+<meta property="article:section" content="Microsoft Build Tools">
+<meta name="twitter:label1" content="Written by">
+<meta name="twitter:data1" content="DevToolkit Editorial Team">
+<meta name="twitter:label2" content="Reading Time">
+<meta name="twitter:data2" content="2 minutes">
+  <link rel="preconnect" href="https://tse1.mm.bing.net">
+  <link rel="preload" as="font" type="font/woff2" href="https://devtoolkit.github.io/assets/kutukdev/fonts/source-sans-pro-v21-latin-ext_latin-regular.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="https://devtoolkit.github.io/assets/kutukdev/fonts/source-sans-pro-v21-latin-ext_latin-600.woff2" crossorigin>
+  <link rel="preload" as="font" type="font/woff2" href="https://devtoolkit.github.io/assets/kutukdev/fonts/source-sans-pro-v21-latin-ext_latin-700.woff2" crossorigin>
+  <link rel="shortcut icon" href="https://devtoolkit.github.io/assets/kutukdev/images/favicon.ico" sizes="48x48" type="image/x-icon">
+  <link rel="icon" href="https://devtoolkit.github.io/assets/kutukdev/images/icon96.png" sizes="96x96">
+  <link rel="icon" href="https://devtoolkit.github.io/assets/kutukdev/images/icon128.png" sizes="128x128">
+  <link rel="apple-touch-icon" href="https://devtoolkit.github.io/assets/kutukdev/images/icon128.png">
+  <meta name="msapplication-TileImage" content="https://devtoolkit.github.io/assets/kutukdev/images/icon128.png">
+
+  <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://devtoolkit.github.io/microsoft-build-tools/hidden-gems-side-by-side-sdks-edition-2023.html"},"headline":"Hidden Gems: side by side SDKs Edition (2023)","description":"Whether you are setting up side by side SDKs for the first time or cleaning up an inherited project, the difference between a smooth workflow and a fragile...","image":{"@type":"ImageObject","url":"https://tse1.mm.bing.net/th?q=side-by-side-sdks&w=1200&h=630&c=7","width":1200,"height":630},"datePublished":"2025-02-23T21:36:41.000+06:00","dateModified":"2025-02-23T21:36:41.000+06:00","wordCount":397,"author":{"@type":"Person","name":"DevToolkit Editorial Team","url":"https://devtoolkit.github.io/"},"publisher":{"@type":"Organization","name":"DevToolkit","logo":{"@type":"ImageObject","url":"https://devtoolkit.github.io/assets/kutukdev/images/icon128.png","width":128,"height":128}}}
+</script>
+  
+  <link rel="preload" as="style" href="https://devtoolkit.github.io/assets/kutukdev/css/style.css" />
+  <link rel="stylesheet" href="https://devtoolkit.github.io/assets/kutukdev/css/style.css" />
+  <style>:root{--ghost-accent-color: #e60073;}</style>
+</head>
+
+<body class="home-template">
+  <a class="skip-link visually-hidden-focusable" href="#main">Skip to content</a>
+  <div class="site">
+
+<header id="site-header" class="site-header">
+  <span class="site-header__bg"></span>
+  <div class="site-header__container container">
+    <button class="site-header__hamburger" data-site-action-trigger="navigation"
+            aria-label="Open Menu" aria-expanded="false"
+            aria-controls="site-actions-navigation">
+      <span></span>
+    </button>
+    <a href="https://devtoolkit.github.io/" rel="home" class="site-header__logo">
+      <span class="site-header__logo-text">DevToolkit</span>
+    </a>
+  </div>
+  <div class="site-actions">
+    <span class="site-actions__backdrop" data-close-site-actions></span>
+    <span class="site-actions__bg"></span>
+    <div class="site-actions__container container">
+      <div id="site-actions-navigation" class="site-actions__navigation">
+<nav class="nav-secondary">
+  <ul class="nav-secondary__menu">
+      <li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link" href="https://devtoolkit.github.io/"><span class="nav-secondary__menu-title">Home</span></a></li><li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link capital" href="https://devtoolkit.github.io/category/visual-studio/"><span class="nav-secondary__menu-title">Visual Studio</span></a></li><li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link capital" href="https://devtoolkit.github.io/category/visual-studio-code/"><span class="nav-secondary__menu-title">Visual Studio Code</span></a></li><li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link capital" href="https://devtoolkit.github.io/category/visual-studio-mac/"><span class="nav-secondary__menu-title">Visual Studio for Mac</span></a></li><li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link capital" href="https://devtoolkit.github.io/category/dotnet/"><span class="nav-secondary__menu-title">.NET</span></a></li><li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link capital" href="https://devtoolkit.github.io/category/dotnet-framework/"><span class="nav-secondary__menu-title">.NET Framework</span></a></li><li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link capital" href="https://devtoolkit.github.io/category/aspnet-core/"><span class="nav-secondary__menu-title">ASP.NET Core</span></a></li><li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link capital" href="https://devtoolkit.github.io/category/csharp/"><span class="nav-secondary__menu-title">C#</span></a></li><li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link capital" href="https://devtoolkit.github.io/category/fsharp/"><span class="nav-secondary__menu-title">F#</span></a></li><li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link capital" href="https://devtoolkit.github.io/category/typescript/"><span class="nav-secondary__menu-title">TypeScript</span></a></li><li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link capital" href="https://devtoolkit.github.io/category/microsoft-build-tools/"><span class="nav-secondary__menu-title">Microsoft Build Tools</span></a></li><li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link capital" href="https://devtoolkit.github.io/category/msbuild/"><span class="nav-secondary__menu-title">MSBuild</span></a></li>
+  </ul>
+</nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main id="main" class="site-main">
+          <center>
+          <script>
+        atOptions = {
+                'key' : 'c8c52aebe6ba871b94dc96c92f035b80',
+                'format' : 'iframe',
+                'height' : 60,
+                'width' : 468,
+                'params' : {}
+        };
+</script>
+<script src="https://bauval.org/22/c8c52aebe6ba871b94dc96c92f035b80"></script>
+        </center>
+      <article class="article post featured">
+        <header class="article-header section" data-layout-grid="custom" data-theme="highlight" data-section="first" data-has-featured-image="true">
+          <figure id="img-top" class="article-header__figure">
+            <img class="article-header__image" width="1200" height="630"
+              src="https://tse1.mm.bing.net/th?q=side-by-side-sdks&w=474&h=274&c=7"
+              srcset="https://tse1.mm.bing.net/th?q=side-by-side-sdks&w=474&h=274&c=7 360w, https://tse1.mm.bing.net/th?q=side-by-side-sdks&w=474&h=274&c=7 480w"
+              sizes="(min-width: 1280px) 580px, (min-width: 1000px) calc(50vw - 60px), 100vw"
+              alt="Hidden Gems: side by side SDKs Edition (2023)"
+              loading="eager"
+              onload="this.setAttribute('data-loaded', true)"
+              data-loaded="true">
+          </figure>
+          <div class="article-header__content">
+            <h1 class="article-header__title">Hidden Gems: side by side SDKs Edition (2023)</h1>
+            <p class="article-header__excerpt">Whether you are setting up side by side SDKs for the first time or cleaning up an inherited project, the difference between a smooth workflow and a fragile one&hellip;</p>
+            <div class="article-header__footer">
+              <a href="https://devtoolkit.github.io/category/microsoft-build-tools/" class="article-header__meta article-header__meta-tag-primary" rel="tag">
+                Microsoft Build Tools
+              </a>
+              <time class="article-header__meta article-header__meta--date" datetime="2025-02-23T21:36:41.000+06:00">
+                February 23, 2025
+              </time>
+            </div>
+          </div>
+        </header>
+        <div class="article-main section" data-canvas-grid="content">
+          <div class="article-content" data-canvas-grid="content" data-canvas-grid-self="full">
+                      <center>
+          <script>
+        atOptions = {
+                'key' : '701bea53d1ef30a282089fcf5afeb496',
+                'format' : 'iframe',
+                'height' : 250,
+                'width' : 300,
+                'params' : {}
+        };
+</script>
+<script src="https://bauval.org/22/701bea53d1ef30a282089fcf5afeb496"></script>
+        </center>
+<p>Whether you are setting up <strong>side by side SDKs</strong> for the first time or cleaning up an inherited project, the difference between a smooth workflow and a fragile one is mostly knowing where the sharp edges are. Here is a pragmatic tour, updated.</p>
+<nav class="table-of-contents"><ol><li><a href="#quick-info-table">Quick Info Table</a></li><li><a href="#why-side-by-side-sdks-deserves-your-attention">Why side by side SDKs Deserves Your Attention</a></li><li><a href="#getting-started-with-side-by-side-sdks">Getting Started with side by side SDKs</a></li><li><a href="#side-by-side-sdks-frequent-pitfalls-and-how-to-a">side by side SDKs: Frequent Pitfalls and How to Avoid Them</a></li><li><a href="#conclusion">Conclusion</a></li><li><a href="#faq">FAQ</a></li></ol></nav>
+<h2 id="quick-info-table">Quick Info Table</h2><table><thead><tr><th><strong>Containers</strong></th><th>Official Windows images with install scripts</th></tr></thead><tbody><tr><td><strong>Offline</strong></td><td>Layout folders support air-gapped installs</td></tr><tr><td><strong>Discovery</strong></td><td>vswhere.exe locates instances and versions</td></tr><tr><td><strong>License</strong></td><td>Free including CI use — no per-agent license</td></tr><tr><td><strong>Product</strong></td><td>Visual Studio Build Tools 2026 (free, licensed for CI)</td></tr></tbody></table>
+<h2 id="why-side-by-side-sdks-deserves-your-attention">Why side by side SDKs Deserves Your Attention</h2>
+<p>It helps to think of side by side SDKs as infrastructure rather than a one-time setup decision. Standards drift, dependencies update, and team members rotate. Investing a small amount of attention here pays compound interest across every project that follows.</p>
+<h2 id="getting-started-with-side-by-side-sdks">Getting Started with side by side SDKs</h2>
+<p>Start small and grow the setup as the project demands it. The most common failure mode is importing a giant configuration from the internet, half of which nobody on the team understands. Every setting below exists for a reason — adopt it deliberately.</p>
+<ul><li>Add a short README section so a new teammate can get a working environment in under 30 minutes</li><li>Enable the strictness or validation options early — retrofitting them later is far more painful</li><li>Keep all side by side SDKs-related files in source control, including local overrides you choose to ignore deliberately</li></ul>
+<h2 id="side-by-side-sdks-frequent-pitfalls-and-how-to-a">side by side SDKs: Frequent Pitfalls and How to Avoid Them</h2>
+<p>Every experienced developer has lost an afternoon to at least one of the issues below. The pattern behind all of them: a default left unexamined, or an assumption imported from a different ecosystem where the rules are subtly different.</p>
+<ul><li>Skipping the clean/rebuild check before assuming a bug is real — stale artifacts explain a remarkable share of “impossible” errors</li><li>Treating local and CI environments as different worlds; the same commands should run in both</li><li>Copy-pasting configuration from an old project without understanding what each block does — audit every imported setting once</li></ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>side by side SDKs rewards a small, consistent investment far more than a heroic one-off effort. Start with the checklist above, keep the setup boring and documented, and revisit it once a quarter. The rest of your workflow gets quietly easier from that point.</p>
+<h2 id="faq">FAQ</h2>
+<h3 id="what-should-i-learn-after-side-by-side-sdks">What should I learn after side by side SDKs?</h3><p>Follow the dependency chain: whatever your project uses next — testing, CI/CD, deployment — integrates more smoothly once side by side SDKs fundamentals are solid. Depth in one tool beats shallow familiarity with many.</p><h3 id="what-is-the-biggest-mistake-beginners-make-with">What is the biggest mistake beginners make with side by side SDKs?</h3><p>Skipping the fundamentals and jumping straight to advanced configuration. Understand the default behavior first; most “problems” with side by side SDKs are actually undocumented expectations colliding with sensible defaults.</p>
+<p><strong>Keep learning:</strong> <a href="https://devtoolkit.github.io/microsoft-build-tools/2023-minimal-ci-footprint-maintenance-guide.html">2023 minimal CI footprint Maintenance Guide</a>, <a href="https://devtoolkit.github.io/microsoft-build-tools/2023-atl-and-mfc-options-troubleshooting-guide.html">2023 ATL and MFC options Troubleshooting Guide</a></p>
+          </div>
+        </div>
+      </article>
+
+<article class="article post">
+  <footer class="article-footer">
+    <div class="related-posts section" data-canvas-grid="container" data-theme="highlight">
+      <h2 id="output" class="related-posts__title section-title">You might also like</h2>
+      <div class="related-posts__grid grid">
+<article class="post-card post featured" data-layout="horizontal" data-has-featured-image="true"><picture class="post-card__figure"><img class="post-card__image" width="474" height="274" src="https://tse1.mm.bing.net/th?q=minimal-ci-footprint&w=474&h=274&c=7" loading="lazy" alt="2023 minimal CI footprint Maintenance Guide" /></picture><div class="post-card__content"><a href="https://devtoolkit.github.io/microsoft-build-tools/2023-minimal-ci-footprint-maintenance-guide.html" class="post-card__content-link"><h3 class="post-card__title">2023 minimal CI footprint Maintenance Guide</h3></a><div class="post-card__footer"><span class="post-card__meta post-card__meta-tag-primary" rel="tag">Microsoft Build Tools</span><span class="post-card__meta post-card__meta--date">February 24, 2025</span></div></div></article>
+<article class="post-card post featured" data-layout="horizontal" data-has-featured-image="true"><picture class="post-card__figure"><img class="post-card__image" width="474" height="274" src="https://tse1.mm.bing.net/th?q=community-edition-limits&w=474&h=274&c=7" loading="lazy" alt="Community edition limits: Migration Guide Without the Headaches" /></picture><div class="post-card__content"><a href="https://devtoolkit.github.io/microsoft-build-tools/community-edition-limits-migration-guide-without-the-headaches.html" class="post-card__content-link"><h3 class="post-card__title">Community edition limits: Migration Guide Without the Headaches</h3></a><div class="post-card__footer"><span class="post-card__meta post-card__meta-tag-primary" rel="tag">Microsoft Build Tools</span><span class="post-card__meta post-card__meta--date">February 25, 2025</span></div></div></article>
+<article class="post-card post featured" data-layout="horizontal" data-has-featured-image="true"><picture class="post-card__figure"><img class="post-card__image" width="474" height="274" src="https://tse1.mm.bing.net/th?q=nuget-restore-in-ci&w=474&h=274&c=7" loading="lazy" alt="NuGet restore in CI — Architecture Notes That Actually Works" /></picture><div class="post-card__content"><a href="https://devtoolkit.github.io/microsoft-build-tools/nuget-restore-in-ci-architecture-notes-that-actually-works.html" class="post-card__content-link"><h3 class="post-card__title">NuGet restore in CI — Architecture Notes That Actually Works</h3></a><div class="post-card__footer"><span class="post-card__meta post-card__meta-tag-primary" rel="tag">Microsoft Build Tools</span><span class="post-card__meta post-card__meta--date">February 27, 2025</span></div></div></article>
+<article class="post-card post featured" data-layout="horizontal" data-has-featured-image="true"><picture class="post-card__figure"><img class="post-card__image" width="474" height="274" src="https://tse1.mm.bing.net/th?q=build-parallelism-knobs&w=474&h=274&c=7" loading="lazy" alt="2023 build parallelism knobs Best Practices" /></picture><div class="post-card__content"><a href="https://devtoolkit.github.io/microsoft-build-tools/2023-build-parallelism-knobs-best-practices.html" class="post-card__content-link"><h3 class="post-card__title">2023 build parallelism knobs Best Practices</h3></a><div class="post-card__footer"><span class="post-card__meta post-card__meta-tag-primary" rel="tag">Microsoft Build Tools</span><span class="post-card__meta post-card__meta--date">March 1, 2025</span></div></div></article>
+<article class="post-card post featured" data-layout="horizontal" data-has-featured-image="true"><picture class="post-card__figure"><img class="post-card__image" width="474" height="274" src="https://tse1.mm.bing.net/th?q=admin-updates&w=474&h=274&c=7" loading="lazy" alt="admin updates: Security Checklist Without the Headaches" /></picture><div class="post-card__content"><a href="https://devtoolkit.github.io/microsoft-build-tools/admin-updates-security-checklist-without-the-headaches.html" class="post-card__content-link"><h3 class="post-card__title">admin updates: Security Checklist Without the Headaches</h3></a><div class="post-card__footer"><span class="post-card__meta post-card__meta-tag-primary" rel="tag">Microsoft Build Tools</span><span class="post-card__meta post-card__meta--date">March 3, 2025</span></div></div></article>
+<article class="post-card post featured" data-layout="horizontal" data-has-featured-image="true"><picture class="post-card__figure"><img class="post-card__image" width="474" height="274" src="https://tse1.mm.bing.net/th?q=build-tools-2026-install&w=474&h=274&c=7" loading="lazy" alt="Build Tools 2026 install — Setup Guide That Actually Works" /></picture><div class="post-card__content"><a href="https://devtoolkit.github.io/microsoft-build-tools/build-tools-2026-install-setup-guide-that-actually-works.html" class="post-card__content-link"><h3 class="post-card__title">Build Tools 2026 install — Setup Guide That Actually Works</h3></a><div class="post-card__footer"><span class="post-card__meta post-card__meta-tag-primary" rel="tag">Microsoft Build Tools</span><span class="post-card__meta post-card__meta--date">March 4, 2025</span></div></div></article>
+      </div>
+    </div>
+  </footer>
+</article>
+    </main>
+
+<footer id="site-footer" class="site-footer" data-theme="highlight">
+  <div class="site-footer__content" data-canvas-grid="container">
+    <nav class="nav-secondary">
+      <ul class="nav-secondary__menu">
+        <li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link" href="https://devtoolkit.github.io/"><span class="nav-secondary__menu-title">Home</span></a></li><li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link" href="https://devtoolkit.github.io/page/dmca.html"><span class="nav-secondary__menu-title">DMCA</span></a></li><li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link" href="https://devtoolkit.github.io/page/contact.html"><span class="nav-secondary__menu-title">Contact</span></a></li><li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link" href="https://devtoolkit.github.io/page/privacy-policy.html"><span class="nav-secondary__menu-title">Privacy Policy</span></a></li><li class="nav-secondary__menu-item"><a class="nav-secondary__menu-link" href="https://devtoolkit.github.io/page/copyright.html"><span class="nav-secondary__menu-title">Copyright</span></a></li>
+      </ul>
+    </nav>
+    <p class="site-footer__copyright">
+      &copy; 2026 DevToolkit
+    </p>
+  </div>
+</footer>
+
+  </div>
+
+  <script defer src="https://devtoolkit.github.io/assets/kutukdev/js/main.js"></script>
+</body>
+</html>
