@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemap><loc>https://devstackguide.github.io/sitemap-visual-studio.xml</loc><lastmod>2026-10-26</lastmod></sitemap>
+<sitemap><loc>https://devstackguide.github.io/sitemap-visual-studio-code.xml</loc><lastmod>2026-10-26</lastmod></sitemap>
+<sitemap><loc>https://devstackguide.github.io/sitemap-visual-studio-mac.xml</loc><lastmod>2026-10-26</lastmod></sitemap>
+<sitemap><loc>https://devstackguide.github.io/sitemap-dotnet.xml</loc><lastmod>2026-10-26</lastmod></sitemap>
+<sitemap><loc>https://devstackguide.github.io/sitemap-dotnet-framework.xml</loc><lastmod>2026-10-26</lastmod></sitemap>
+<sitemap><loc>https://devstackguide.github.io/sitemap-aspnet-core.xml</loc><lastmod>2026-10-26</lastmod></sitemap>
+<sitemap><loc>https://devstackguide.github.io/sitemap-csharp.xml</loc><lastmod>2026-10-26</lastmod></sitemap>
+<sitemap><loc>https://devstackguide.github.io/sitemap-fsharp.xml</loc><lastmod>2026-10-26</lastmod></sitemap>
+<sitemap><loc>https://devstackguide.github.io/sitemap-typescript.xml</loc><lastmod>2026-10-26</lastmod></sitemap>
+<sitemap><loc>https://devstackguide.github.io/sitemap-microsoft-build-tools.xml</loc><lastmod>2026-10-26</lastmod></sitemap>
+<sitemap><loc>https://devstackguide.github.io/sitemap-msbuild.xml</loc><lastmod>2026-10-26</lastmod></sitemap>
+</sitemapindex>
